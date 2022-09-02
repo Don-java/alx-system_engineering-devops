@@ -1,4 +1,1 @@
-Display current directory contents in a long format
-#!/bin/bash
-#!/bin/bash
-ls -la
+Create a script that creates a directory named my_first_directory in the /tmp/ director in the /tmp/ directory
