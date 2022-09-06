@@ -1,1 +1,1 @@
-Letters are lower cases
+One combination per line
