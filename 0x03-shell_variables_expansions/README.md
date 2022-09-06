@@ -1,1 +1,1 @@
- with the value stored in the environment variable
+ followed by a new line.
