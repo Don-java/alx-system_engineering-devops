@@ -1,1 +1,1 @@
-The number will be stored
+script that creates an alias.
