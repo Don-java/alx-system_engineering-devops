@@ -1,1 +1,1 @@
-One combination per line
+The number will be stored
