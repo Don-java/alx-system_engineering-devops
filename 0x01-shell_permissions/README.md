@@ -1,1 +1,1 @@
-15. Symbolic links
+it is owned by the user
