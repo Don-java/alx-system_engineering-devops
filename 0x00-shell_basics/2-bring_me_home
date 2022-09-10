@@ -1,2 +1,4 @@
 #!/bin/bash
 cd=
+#!/bin/bash > 2-bring_me_home
+echo cd
