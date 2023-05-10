@@ -25,7 +25,8 @@ def count_words(subreddit, word_list, after="", count=[]):
                 for i in range(len(word_list)):
                     if word_list[i].lower() == word.lower():
                         count[i] += 1
-after = data['data']['after']
+
+        after = data['data']['after']
         if after is None:
             save = []
             for i in range(len(word_list)):
@@ -50,4 +51,4 @@ after = data['data']['after']
                 if (count[i] > 0) and i not in save:
                     print("{}: {}".format(word_list[i].lower(), count[i]))
         else:
-             count_words(subreddit, word_list, after, count)
+            count_words(subreddit, word_list, after, count)

@@ -22,6 +22,7 @@ def top_ten(subreddit):
 
     response = get(url, headers=user_agent, params=params)
     results = response.json()
+
     try:
         my_data = results.get('data').get('children')
 
@@ -29,4 +30,4 @@ def top_ten(subreddit):
             print(i.get('data').get('title'))
 
     except Exception:
-        print("None")
+        print("None")
